@@ -18,12 +18,15 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    // Cambia aquí el componente que quieras probar
-                    ComponentSelector() // Para ver todos
-                    // O cambia por:
-                    // MiScaffold()     // Solo Scaffold
-                    // MiLazyColumn()   // Solo LazyColumn
-                    // MiAlertDialog()  // Solo Dialog
+                    // Selector principal con todos los componentes
+                    ComponentSelector()
+
+                    // Para probar componentes individuales, comenta la línea anterior y descomenta:
+                    // MiLazyColumn()
+                    // MiButton()
+                    // MiTextField()
+                    // MiScaffold()
+                    // etc...
                 }
             }
         }
