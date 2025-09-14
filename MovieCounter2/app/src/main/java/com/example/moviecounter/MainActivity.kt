@@ -64,6 +64,10 @@ fun ProductCounter(modifier: Modifier = Modifier) {
         Button(onClick = { quantity++ }) {
             Text("Agregar al carrito")
         }
+
+        Button(onClick = { /* acción del nuevo botón */ }) {
+            Text(text = "Comprar")
+        }
     }
 }
 
@@ -93,6 +97,7 @@ fun MovieCounter (modifier: Modifier = Modifier) {
         }) {
             Text(text = "Add movie")
         }
+
     }
 }
 
