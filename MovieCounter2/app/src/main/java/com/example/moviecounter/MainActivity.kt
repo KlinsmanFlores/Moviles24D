@@ -20,6 +20,7 @@ import androidx.compose.material3.Button
 import androidx.compose.ui.Alignment
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.material3.Card
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -70,6 +71,10 @@ fun ProductCounter(modifier: Modifier = Modifier) {
         }
 
         TextField(value = "", onValueChange = {}, label = { Text("Buscar producto") })
+
+        Card(modifier = Modifier.padding(8.dp)) {
+            Text("de nuevo apra el commit para el labo4")
+        }
 
     }
 }
