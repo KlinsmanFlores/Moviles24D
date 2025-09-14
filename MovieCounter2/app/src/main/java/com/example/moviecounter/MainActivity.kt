@@ -68,6 +68,9 @@ fun ProductCounter(modifier: Modifier = Modifier) {
         Button(onClick = { /* acción del nuevo botón */ }) {
             Text(text = "Comprar")
         }
+
+        TextField(value = "", onValueChange = {}, label = { Text("Buscar producto") })
+
     }
 }
 
