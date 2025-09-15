@@ -63,7 +63,7 @@ fun ProductCounter(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.height(16.dp))
 
         Button(onClick = { quantity++ }) {
-            Text("MODIFICAR EL COMPONENTE PARA COMMIT DE RAMAM")
+            Text("ahora se modfico con la rama de conflict-prueba")
         }
 
         Button(onClick = { /* acción del nuevo botón */ }) {
